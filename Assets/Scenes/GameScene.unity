@@ -150,7 +150,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5813cb90f57f8ea478b3a3c236aa8a31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  snakeHeadSprite: {fileID: 21300000, guid: 643f73b205dec9942a8497320144167a, type: 3}
+  snakeHeadSprite: {fileID: 21300000, guid: 4574f971d70a83c41ade6083ada1035a, type: 3}
+  foodSprite: {fileID: 21300000, guid: 43c7cd3796487a540973573009a6817f, type: 3}
 --- !u!4 &385572752
 Transform:
   m_ObjectHideFlags: 0
@@ -386,7 +387,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 643f73b205dec9942a8497320144167a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4574f971d70a83c41ade6083ada1035a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -452,6 +453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18345aaccba255f49a2d7e1733657d8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  snake: {fileID: 0}
 --- !u!4 &1187331499
 Transform:
   m_ObjectHideFlags: 0
